@@ -41,7 +41,7 @@ def get_available_slots(date: str, calendar_id='primary',
     end_of_day = tz.localize(datetime.datetime.combine(date_obj, datetime.time(end_hour, 0)))
 
     start_iso = start_of_day.isoformat()
-    #this is a change
+    #this is a change2
     end_iso = end_of_day.isoformat()
 
     # Fetch busy slots from Google Calendar
