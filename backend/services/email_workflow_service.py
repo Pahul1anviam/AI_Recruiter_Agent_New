@@ -10,8 +10,8 @@ from backend.services.lock_service import ensure_db_exists
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-FROM_EMAIL = "pahuljotsingh16@gmail.com"
-APP_PASSWORD = "hplw slgj cgss etcj"
+FROM_EMAIL = "YOUR_EMAIL_ID"
+APP_PASSWORD = "YOUR_PASSWORD"
 DB_PATH = "db/calendar_booking.db"
 
 class EmailWorkflowService:
