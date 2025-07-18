@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.routers import job_description, candidate_score, persona_builder, scheduler, slot_router 
+from backend.routers import job_description, candidate_score, persona_builder, scheduler, slot_router, complete_workflow_router
 
 app = FastAPI()
 
@@ -18,3 +18,5 @@ app.include_router(candidate_score.router)
 app.include_router(persona_builder.router)
 app.include_router(scheduler.router, prefix="/scheduler", tags=["Scheduler"])
 app.include_router(slot_router.router)
+app.include_router(complete_workflow_router.router)
+
