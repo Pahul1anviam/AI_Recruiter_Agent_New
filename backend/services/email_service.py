@@ -11,8 +11,8 @@ APP_PASSWORD = "hplw slgj cgss etcj"
 
 
 def send_slot_email(candidate_email, candidate_name, slot_list):
-    sender_email = "pahuljotsingh16@gmail.com"
-    app_password = "hplw slgj cgss etcj"
+    sender_email = "YOUR_EMAIL_ID"
+    app_password = "YOUR_APP_PASSWORD"
 
     subject = f"Interview Slot Selection - {candidate_name}"
     body = f"Dear {candidate_name},<br><br>"
